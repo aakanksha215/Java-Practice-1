@@ -7,7 +7,7 @@ interface Dance {
 interface Traditional extends Dance, Fest{
     public void show();
 }
-public class Main{
+public class fest{
     public static void main(String[] args){
         Traditional trad = new Traditional() {
             public void start() {
